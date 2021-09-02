@@ -1,0 +1,10 @@
+<script>
+function myrefresh(){
+ window.location.reload();
+ }
+ setTimeout('myrefresh()',1000);
+
+</script>
+
+<?php
+copy($file1,$file2);
